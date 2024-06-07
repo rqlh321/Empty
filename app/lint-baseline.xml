@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint Jellyfish | 2023.3.1 Patch 1">
+
+    <issue
+        id="RedundantLabel"
+        message="Redundant label can be removed">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="19"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="15"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+</issues>
