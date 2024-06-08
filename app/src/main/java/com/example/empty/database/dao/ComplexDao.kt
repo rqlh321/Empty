@@ -1,5 +1,6 @@
 package com.example.empty.database.dao
 
+import androidx.paging.PagingSource
 import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Transaction
@@ -22,4 +23,7 @@ interface ComplexDao {
     @Query("SELECT * FROM place")
     fun getPlaceWithVisitorFlow(): Flow<List<PlaceWithVisitor>>
 
+    @Transaction
+    @Query("SELECT * FROM place")
+    fun getPlaceWithVisitorPagingSource(): PagingSource<Int, PlaceWithVisitor>
 }

@@ -8,7 +8,6 @@ import androidx.room.Entity
     primaryKeys = ["id"]
 )
 data class AppMetadata(
-    @ColumnInfo(name = "is_setup_finish") val isSetupFinish: Boolean,
     @ColumnInfo(name = "id") val id: String = METADATA_ID,
     @ColumnInfo(name = "current_user_id") val currentUserId: String,
 ) {
